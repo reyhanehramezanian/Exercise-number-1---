@@ -1,4 +1,5 @@
-| Name | Score |
+
+| Name | Score |hhgfg |
 |---|---|
-| Ali | 20 |
-| Sara | 18 |
+| Ali | 20 | 50 |
+| Sara | 18 | 60 |
