@@ -10,7 +10,7 @@
 
      اعضای گروه:
 
-    [ریحانه رمضانیان مقدم] - ([[لینک GitHub](https://github.com/reyhanehramezanian/Exercise-number-1---.git)])
+    [ریحانه رمضانیان مقدم] - ([[لینک GitHub]])
 
      استاددرس: 
 
