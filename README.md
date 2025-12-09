@@ -1,5 +1,5 @@
 گام دوم (تحلیل اصول شی گرایی)
-|    |
+ 
 | اصل | مورد برقراری / نقض | کلاس | علت برقراری / نقض | 
 |:---:|:---:|:---:|:---:|
 | اصل SRP | مورد برقراری | - | - |
@@ -17,3 +17,20 @@
 | اصل PLK | مورد نقض | ReservationService | کلاس ReservationService برای دسترسی به اطلاعات مشتری و اتاق، از طریق شیء Reservation به متغیرها دسترسی پیدا می‌کند (به عنوان مثال: res.customer.city یا res.totalPrice()). این زنجیره فراخوانی (Method Chaining) (مانند res.customer.email) نشان می‌دهد که ReservationService بیش از حد از ساختار داخلی کلاس‌های Reservation، Customer و Room آگاهی دارد و این اصل را نقض می‌کند.  |
 | اصل CRP | مورد برقراری | - |  - |
 | اصل CRP | مورد نقض| Payment Processor و Reservation Service | PaymentProcessor و ReservationService در یک پکیج قرار دارند. هرگاه روش پرداخت جدیدی اضافه شود (مانند payOnSite)، کلاس PaymentProcessor تغییر می‌کند و این امر باعث می‌شود کلاس ReservationService نیز باید به دلیل وابستگی به آن (یا حداقل نیاز به توزیع مجدد) تغییر کند. عدم تفکیک مناسب ماژول‌هایی که با هم تغییر نمی‌کنند، این اصل را نقض می‌کند. |
+
+گام چهارم (ارزیابی)
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Step-01-without-solid/MessageSendingPractice/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
