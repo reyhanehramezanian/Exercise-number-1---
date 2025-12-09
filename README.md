@@ -84,8 +84,8 @@
 ۴. گام چهارم: ارزیابی
 |تعداد تغییرات| تغییرات لازم برای افزودن قابلیت‌های پرداخت حضوری و پیامک |
 |:---:|:---:|
-|۴ تغییر|۴ تغییر: ۱. تغییر PaymentProcessor ۲. تغییر ReservationService (پرداخت) ۳. افزودن SmsSender ۴. تغییر ReservationService (اعلان)|
-|۴ تغییر|۲ تغییر: ۱. افزودن کلاس جدید OnSitePayment (پیاده‌سازی PaymentMethod) ۲. افزودن کلاس جدید SmsSender (پیاده‌سازی Notifier)|
+|۴ تغییر| تغییرPaymentProcessor   / تغییر ReservationService (پرداخت)/ افزودن   SmsSender / تغییر ReservationService (اعلان)|
+|۴ تغییر| افزودن کلاس جدید OnSitePayment (پیاده‌سازی PaymentMethod) / افزودن کلاس جدید SmsSender (پیاده‌سازی Notifier)|
  
 نتیجه: با رعایت اصول شی گرایی از ابتدا، تمامی تغییرات در کلاس اصلی ReservationService حذف می‌شدند و هر دو قابلیت جدید با فقط دو تغییر (افزودن دو کلاس جدید) به پروژه اضافه می‌شدند.
 
