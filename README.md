@@ -7,7 +7,7 @@
 
 اعضای گروه:
 
-[ریحانه رمضانیان مقدم] - ([لینک GitHub])
+[ریحانه رمضانیان مقدم] - ([[لینک GitHub](https://github.com/reyhanehramezanian/Exercise-number-1---.git)])
 
 ۱. گام اول: افزودن قابلیت‌های جدید (بدون رعایت OOD)
 
