@@ -6,8 +6,9 @@ class SmsSender implements MessageSender {
     }
     
      public void sendSms(String to, String message) {
-        System.out.println("--- شروع ارسال پیامک ---");
+        System.out.println("---  Start sending SMS ---");
         System.out.println("Sending SMS to " + to + ": " + message);
         System.out.println("-------------------------");
     }
+
 }
